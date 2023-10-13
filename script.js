@@ -3,7 +3,7 @@ const clapButton = document.getElementById('clap-button');
 clapButton.addEventListener('click', switchBackground);
 
 function randomColor() {
-  const red = Math.floor(Math.random() * 256);
+  const red = Math.floor(Math.random() * 125);
   const green = Math.floor(Math.random() * 256);
   const blue = Math.floor(Math.random() * 256);
 
